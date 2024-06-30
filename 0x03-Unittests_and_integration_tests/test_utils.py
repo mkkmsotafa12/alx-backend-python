@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-""" Module utils.access_nested_map function """
+""" Module utils access nested map function """
 
 import unittest
 from utils import access_nested_map, get_json, memoize
