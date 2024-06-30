@@ -68,7 +68,7 @@ class TestMemoize(unittest.TestCase):
                 """ Wrapper method """
                 return self.a_method()
         with patch.object(TestClass, 'a_method') as patchObj:
-            cls = TestClass()
-            cls.a_property()
-            cls.a_property()
+            cla = TestClass()
+            cla.a_property()
+            cla.a_property()
             patchObj.assert_called_once()
