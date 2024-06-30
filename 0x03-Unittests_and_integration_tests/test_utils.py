@@ -3,7 +3,7 @@
 
 import unittest
 from utils import access_nested_map, get_json, memoize
-from parsimonious import parameterized
+from parameterized import parameterized
 from unittest.mock import patch, Mock
 from typing import (
     Mapping,
